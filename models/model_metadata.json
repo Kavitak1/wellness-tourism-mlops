@@ -1,0 +1,60 @@
+{
+  "best_model": "random_forest",
+  "selection_metric": "cv_roc_auc",
+  "best_params": {
+    "model__max_depth": 14,
+    "model__min_samples_leaf": 2,
+    "model__n_estimators": 150
+  },
+  "cv_roc_auc": 0.9225249881481125,
+  "test_metrics": {
+    "roc_auc": 0.9477299880525687,
+    "f1": 0.7126436781609196,
+    "recall": 0.6,
+    "precision": 0.8773584905660378,
+    "accuracy": 0.9066002490660025
+  },
+  "feature_columns": [
+    "Age",
+    "TypeofContact",
+    "CityTier",
+    "DurationOfPitch",
+    "Occupation",
+    "Gender",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "ProductPitched",
+    "PreferredPropertyStar",
+    "MaritalStatus",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ],
+  "categorical_features": [
+    "TypeofContact",
+    "Occupation",
+    "Gender",
+    "ProductPitched",
+    "MaritalStatus"
+  ],
+  "numeric_features": [
+    "Age",
+    "CityTier",
+    "DurationOfPitch",
+    "NumberOfPersonVisiting",
+    "NumberOfFollowups",
+    "PreferredPropertyStar",
+    "NumberOfTrips",
+    "Passport",
+    "PitchSatisfactionScore",
+    "OwnCar",
+    "NumberOfChildrenVisiting",
+    "MonthlyIncome"
+  ],
+  "target": "ProdTaken",
+  "positive_class": 1,
+  "model_path": "/Users/kavita.kanthaliya/Documents/Github-SF-BT/BT_OrgESC_Asset_Management/wellness_tourism_mlops/models/best_model.joblib"
+}
