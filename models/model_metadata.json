@@ -6,13 +6,13 @@
     "model__min_samples_leaf": 2,
     "model__n_estimators": 150
   },
-  "cv_roc_auc": 0.9225249881481125,
+  "cv_roc_auc": 0.923411427257455,
   "test_metrics": {
-    "roc_auc": 0.9477299880525687,
-    "f1": 0.7126436781609196,
+    "roc_auc": 0.9482178414974114,
+    "f1": 0.7153846153846154,
     "recall": 0.6,
-    "precision": 0.8773584905660378,
-    "accuracy": 0.9066002490660025
+    "precision": 0.8857142857142857,
+    "accuracy": 0.9078455790784558
   },
   "feature_columns": [
     "Age",
@@ -56,5 +56,5 @@
   ],
   "target": "ProdTaken",
   "positive_class": 1,
-  "model_path": "/Users/kavita.kanthaliya/Documents/Github-SF-BT/BT_OrgESC_Asset_Management/wellness_tourism_mlops/models/best_model.joblib"
+  "model_path": "/home/runner/work/wellness-tourism-mlops/wellness-tourism-mlops/models/best_model.joblib"
 }

@@ -19,12 +19,12 @@
       "model__min_samples_leaf": 2,
       "model__n_estimators": 150
     },
-    "cv_roc_auc": 0.9225249881481125,
-    "test_roc_auc": 0.9477299880525687,
-    "test_f1": 0.7126436781609196,
+    "cv_roc_auc": 0.923411427257455,
+    "test_roc_auc": 0.9482178414974114,
+    "test_f1": 0.7153846153846154,
     "test_recall": 0.6,
-    "test_precision": 0.8773584905660378,
-    "test_accuracy": 0.9066002490660025
+    "test_precision": 0.8857142857142857,
+    "test_accuracy": 0.9078455790784558
   },
   {
     "model": "adaboost",
